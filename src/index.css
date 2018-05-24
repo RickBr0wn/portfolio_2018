@@ -1,7 +1,42 @@
+/* GLOBAL STYLES */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+*{
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR STYLES */
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.main-nav a{
+  margin-left: 20px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* display: block; */
+}
+
+.main-nav a:link{
+  text-decoration: none;
+
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+/* HOME PAGE STYLES */
+.container{
+  max-width: 950px;
 }
