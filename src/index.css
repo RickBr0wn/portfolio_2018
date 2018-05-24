@@ -12,7 +12,7 @@ body {
 }
 
 /* NAVBAR STYLES */
-.grid-container{
+.nav-container{
   display: grid;
   grid-template-columns: auto auto auto auto;
 }

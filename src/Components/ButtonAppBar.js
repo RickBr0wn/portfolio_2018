@@ -38,7 +38,7 @@ function ButtonAppBar(props) {
             <p>Rick Brown</p>
           </Typography>
 
-            <ul className="main-nav grid-container">
+            <ul className="main-nav nav-container">
               <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/aboutme">About Me</NavLink></li>
               <li><NavLink to="/projects">Projects</NavLink></li>
