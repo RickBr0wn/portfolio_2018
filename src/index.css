@@ -40,3 +40,20 @@ ul{
 .container{
   max-width: 950px;
 }
+
+.hero-image{
+  margin-top: -25px;
+  background-image: linear-gradient(to bottom, #3f51b5, #5867bd, #707ec3, #8894c9, #a2abcd);
+  height: 90vh;
+}
+
+.hero-image h1{
+  color: #fff;
+  font-size: 104px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.empty-space{
+  height: 25vh;
+}
