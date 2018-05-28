@@ -44,6 +44,7 @@ ul{
 .hero-image{
   margin-top: -25px;
   background-image: linear-gradient(to bottom, #3f51b5, #5867bd, #707ec3, #8894c9, #a2abcd);
+  /* background-image: linear-gradient(to bottom, #3f51b5, #7879c8, #a7a3da, #d4d0ed, #ffffff); */
   height: 90vh;
 }
 
