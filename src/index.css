@@ -58,3 +58,22 @@ ul{
 .empty-space{
   height: 25vh;
 }
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  transition-delay: 15s;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+/* .fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+} */
